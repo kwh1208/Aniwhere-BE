@@ -16,7 +16,7 @@ public class CorsConfig {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 
 		corsConfiguration.setAllowCredentials(true);
-		corsConfiguration.setAllowedOrigins(List.of("http://localhost:3000", "http://aniwhere.duckdns.org", "http://aniwhere.vercel.app"));
+		corsConfiguration.setAllowedOrigins(List.of("http://localhost:3000", "https://aniwhere.duckdns.org", "https://aniwhere.vercel.app"));
 		corsConfiguration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
 		corsConfiguration.setAllowedHeaders(List.of("*"));
 		corsConfiguration.setExposedHeaders(List.of("Set-Cookie", "*"));
